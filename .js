@@ -43,10 +43,14 @@ function diffArray2(arr1, arr2) {
 
 /*************   Solution #3  *******************************************************************/
 
+   function diffArray(arr1, arr2) {     
+        let newArr = [];
+        return arr1.concat(arr2).filter(item => !arr1.includes(item) || arr2.indexOf(item) === -1);    
+   }
 
 
 
-
+/*************   Solution #4  *******************************************************************/
 
 
 
