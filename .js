@@ -1,12 +1,13 @@
 function diffArray(arr1, arr2) {
     var newArr = [];
+    // Looping through an array to find elements that don't exist in another array
     for(let i = 0; i < arr2.length; i++){
-        if(arr1.indexOf(arr2[i]) === -1){
-            newArr.push(arr2[i]);
+        if(arr1.indexOf(arr2[i]) === -1){ // Array.prototype.indexOf() to find unique elements 
+            newArr.push(arr2[i]); // Pushing the elements unique to newArr
         }
     }
     for(let j = 0; j < arr1.length; j++){
-        if(arr2.includes(arr1[j]) === false){
+        if(arr2.includes(arr1[j]) === false){  // Array.prototype.includes() to find unique elements 
             newArr.push(arr1[j]);         
         }
     } 
