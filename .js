@@ -1,7 +1,7 @@
 function diffArray(arr1, arr2) {
     var newArr = [];
     for(let i = 0; i < arr2.length; i++){
-        if(arr1.includes(arr2[i]) === false){
+        if(arr1.indexOf(arr2[i]) === -1){
             newArr.push(arr2[i]);
         }
     }
