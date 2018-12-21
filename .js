@@ -1,3 +1,5 @@
+/*************   Solution #1  *******************************************************************/
+
 function diffArray(arr1, arr2) {
     var newArr = [];
     // Looping through an array to find elements that don't exist in another array
@@ -17,6 +19,10 @@ function diffArray(arr1, arr2) {
   diffArray([2, 3, 5, 6, 11], [ 2, 3, 4, 5,11]); // Returns [4,6]
   diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]);
   // Returns [pink wool]
+
+
+
+/*************   Solution #2 is improved version of solution #1   ********************************/
 
 
 
