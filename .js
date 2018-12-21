@@ -13,15 +13,13 @@ function diffArray(arr1, arr2) {
     return newArr;
   }
   
-  diffArray([2, 3, 5, 6, 11], [ 2, 3, 4, 5,11]);
+  diffArray([2, 3, 5, 6, 11], [ 2, 3, 4, 5,11]); // Returns [4,6]
   diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]);
-  
+  // Returns [pink wool]
 
 
 
-[4,6]
-[pink wool]
 
 
 
-// Retrieved from 
+// Retrieved from https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/diff-two-arrays/
